@@ -1,0 +1,53 @@
+    .form {
+        max-width: 900px;
+        width: 100%; 
+        margin: 0 auto
+    }
+
+    .peso, .altura{
+        display: block;
+        width: 80%; 
+        margin: 0 auto; 
+        border: none; 
+        border-bottom: .5px solid var(--corPrincipal);
+        height: 70px;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .peso::placeholder, .altura::placeholder{
+        color: var(--corPrincipal);
+    }
+    
+    .peso:focus, .altura:focus{
+        transition: all .5s ease;
+        outline: 1px solid var(--corPrincipal); 
+    }
+    .submit{
+        border-radius: 15px;
+        border: 1px solid var(--corPrincipal); 
+        padding: 5px 15px; 
+        color: var(--corPrincipal); 
+        margin: 30px auto;
+        background-color: transparent;
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .submit:hover{
+        transition: all .5s ease;
+        background-color: var(--corPrincipal);
+        color: var(--corTerciaria);
+    }
+
+    .resultado{
+        display: clock;
+        margin: 0 auto;
+        color: var(--corPrincipal);
+        font-size: 50px; 
+        text-align: center;
+    }
