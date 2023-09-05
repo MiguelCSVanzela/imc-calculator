@@ -11,7 +11,13 @@
   --rose: #d81159;
   --sky: #118ab2;
   --platium: #e6e8e6;
+  --white: #fff;
 }
+
+body {
+  background-color: var(--white);
+}
+
 .container {
   max-width: 960px;
   width: 100%;
