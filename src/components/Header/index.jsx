@@ -1,6 +1,5 @@
 
 import styles from "./Header.module.css";
-// eslint-disable-next-line react/prop-types
 const Header = ({ nome }) => {
     return (
         <header className={styles.header} >
@@ -11,4 +10,4 @@ const Header = ({ nome }) => {
     )
 }
 
-export default Header
+export default Header;

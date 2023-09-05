@@ -14,12 +14,11 @@ function App() {
         <input type="text" className="inputInicial" onKeyUp={({ target }) => setNome(target.value)} placeholder="Seu Apelido " />
         <p className="mensagem">, Seu IMC</p>
       </div>
-      {nome.length >= 3 && (
+      
         <>
           <Header nome={nome} />
           <Form />
         </>
-      )}
     </>
   )
 } ''
